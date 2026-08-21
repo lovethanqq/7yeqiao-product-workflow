@@ -1,0 +1,93 @@
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.env
+*.secret
+*.token
+*token*
+*secret*
+*credential*
+*credentials*
+*apikey*
+*api_key*
+*cookie*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Large/raw/generated media
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.raw
+*.heic
+*.avif
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wmv
+*.m4v
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Caches and temporary files
+.cache/
+cache/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# Environment directories and dependencies
+.venv/
+venv/
+env/
+ENV/
+node_modules/
+vendor/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Build and distribution outputs
+build/
+dist/
+out/
+coverage/
+.next/
+.nuxt/
+*.egg-info/
+
+# Batch exports and previews unless explicitly curated via Git LFS elsewhere
+generated/
+generated-images/
+raw/
+originals/
+exports/
+
+# IDE and OS metadata
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Allow directory placeholders used by this lightweight handoff repo
+!.gitkeep
