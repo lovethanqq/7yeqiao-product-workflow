@@ -81,7 +81,10 @@
 
 - `manifests/xhs_scene_qa.csv`
 - `reports/VISUAL_QA_REPORT.md`
+- `reports/VISUAL_QA_EVIDENCE.pdf`
 - `previews/qa_batches/`
+
+### QA 图片
 
 建议每张 QA batch 最多放 4 个商品，保证细节可读。每个商品面板至少包含：
 
@@ -96,6 +99,18 @@
 对任何失败或不确定商品，另外生成单商品高清证据：
 
 `previews/qa_failures/Pxxx_作品名_QA.jpg`
+
+### 视觉 QA PDF
+
+必须额外生成 `reports/VISUAL_QA_EVIDENCE.pdf`，用于 ChatGPT 独立逐页复核：
+
+- 必须覆盖本轮全部待验收商品，不能只放抽样或失败案例。
+- 建议每页最多 4 个商品；如果细节太小则减少到 2 个商品/页。
+- 每个商品必须同时出现：原图、场景 1、场景 1 校正裁片、场景 2、场景 2 校正裁片。
+- 标注商品编号、作品名、尺寸、框/卡纸信息和本地 QA 结论。
+- 图片必须清晰到可以检查原作边缘、角落、主要笔触/色块和框体关系。
+- PDF 尽量控制在 25 MB 以内；通过合理 JPEG 压缩和分页控制体积，不得为了减小体积压到无法看清细节。
+- PDF 只是证据载体，不允许用“本地 QA_PASS”标签覆盖或遮挡作品区域。
 
 ## QA CSV 字段
 
