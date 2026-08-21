@@ -1,24 +1,6 @@
 # CURRENT_TASK
 
-## 本轮任务目标
-
-对 Manifest 中全部 READY_FOR_QA 商品执行原作品→场景图视觉 QA 重验。
-
-## 本轮任务范围
-
-完成每个商品的原作品、场景 1、场景 2 定位；生成透视校正对照证据、全量 PDF、QA CSV 和失败/不确定案例放大图。
-本轮未生成新场景图、未补缺图、未上传商品、未修改线上商品。
-
-## 本轮是否完成
-
-已完成全量 READY_FOR_QA QA 证据交接；最终结论见 `reports/VISUAL_QA_REPORT.md` 和 `manifests/xhs_scene_qa.csv`。
-
-## 哪些内容未完成
-
-需要 ChatGPT 对 `reports/VISUAL_QA_EVIDENCE.pdf` 进行下一轮独立视觉验收；本轮没有继续处理非 READY_FOR_QA 商品。
-
-本轮最终人工收尾状态计数：QA_FAIL_CONTENT=0, QA_FAIL_CROP=8, QA_FAIL_FRAME=8, QA_FAIL_PERSPECTIVE=0, QA_FAIL_SCALE=0, QA_NEEDS_MANUAL=2, QA_PASS=60。
-本轮只处理 ChatGPT 指定的 12 个商品及 P057/P059 高清证据；未生成新场景图、未上传商品、未修改线上商品。
-
-本轮最终人工收尾状态计数：QA_FAIL_CONTENT=0, QA_FAIL_CROP=8, QA_FAIL_FRAME=8, QA_FAIL_PERSPECTIVE=0, QA_FAIL_SCALE=0, QA_NEEDS_MANUAL=2, QA_PASS=60。
-本轮只处理 ChatGPT 指定的 12 个商品及 P057/P059 高清证据；未生成新场景图、未上传商品、未修改线上商品。
+- 本轮任务目标：快速重做当前 Visual QA 未通过的 18 个商品场景图。
+- 本轮任务范围：为 18 件商品各保留 2 张候选场景图；新生成 34 张，复用 2 张既有可用场景；生成 18 张验收拼版和总 PDF。
+- 本轮是否完成：已完成候选素材与验收证据整理，18 件均有 2 张候选，状态为 READY_FOR_REGEN_QA。
+- 尚未完成：ChatGPT 最终视觉验收；未执行商品上传、线上修改和下一批商品处理。
