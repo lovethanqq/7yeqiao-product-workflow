@@ -8,8 +8,8 @@
 
 | 状态 | 商品数 |
 |---|---:|
-| QA_PASS | 61 |
-| QA_FAIL_CROP | 3 |
+| QA_PASS | 60 |
+| QA_FAIL_CROP | 4 |
 | QA_FAIL_CONTENT | 0 |
 | QA_FAIL_FRAME | 0 |
 | QA_FAIL_SCALE | 0 |
@@ -44,6 +44,9 @@
 - P024｜水果系列2-《柠黄》｜QA_FAIL_CROP｜证据：`previews/qa_batches/P024_水果系列2-《柠黄》_QA.jpg`
   - 场景1：QA_FAIL_CROP｜原图可见圆形作品外圈的蓝白条纹边缘，场景1只保留内部柠黄圆形，原作外缘内容消失
   - 场景2：QA_FAIL_CROP｜原图可见圆形作品外圈的蓝白条纹边缘，场景2只保留内部柠黄圆形，原作外缘内容消失
+- P025｜水果系列2-《青梨》｜QA_FAIL_CROP｜证据：`previews/qa_batches/P025_水果系列2-《青梨》_QA.jpg`
+  - 场景1：QA_FAIL_CROP｜自动提取结果仅保留内部主体区域/近似圆形区域；原作品完整外轮廓或边缘信息未被完整保留；因此不能判定为完整一致
+  - 场景2：QA_FAIL_CROP｜自动提取结果仅保留内部主体区域/近似圆形区域；原作品完整外轮廓或边缘信息未被完整保留；因此不能判定为完整一致
 - P026｜水果系列2-《圆果.红》｜QA_NEEDS_MANUAL｜证据：`previews/qa_batches/P026_水果系列2-《圆果.红》_QA.jpg`
   - 场景1：QA_NEEDS_MANUAL｜圆形作品外缘/背衬与场景边界关系无法仅凭当前匹配框可靠确认，不能猜测完整性
   - 场景2：QA_NEEDS_MANUAL｜圆形作品外缘/背衬与场景边界关系无法仅凭当前匹配框可靠确认，不能猜测完整性
