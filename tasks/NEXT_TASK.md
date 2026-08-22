@@ -1,4 +1,4 @@
-WAITING_FOR_PR_ATTACHMENT_UPLOAD
+WAITING_FOR_CHATGPT_FINAL_FRAME_QA
 
-- 6 件有框候选和 PDF 已准备完成。
-- 待将 PDF 页面高清 JPG 上传到 PR #1 Conversation；附件确认成功后再切换为 WAITING_FOR_CHATGPT_FINAL_FRAME_QA。
+- 本轮 6 件最终有框候选、验收拼版和 PDF 已完成并推送。
+- 等待 ChatGPT 对 `reports/FINAL_FRAME_QA_6_ITEMS.pdf` 和 6 张验收拼版进行最终验收。
