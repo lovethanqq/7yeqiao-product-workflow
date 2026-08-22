@@ -42,6 +42,14 @@
 *.tar
 *.gz
 
+# Curated QA previews are intentionally small review evidence.
+# Keep raw/original/generated media ignored, but allow review assets under previews/.
+!previews/
+!previews/**/*.png
+!previews/**/*.jpg
+!previews/**/*.jpeg
+!previews/**/*.webp
+
 # Caches and temporary files
 .cache/
 cache/
@@ -76,7 +84,7 @@ coverage/
 .nuxt/
 *.egg-info/
 
-# Batch exports and previews unless explicitly curated via Git LFS elsewhere
+# Batch exports and source assets stay out of this lightweight handoff repo
 generated/
 generated-images/
 raw/
